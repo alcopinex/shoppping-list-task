@@ -1,0 +1,1 @@
+The **Shopping List App** is a beginner-friendly web application built with HTML, CSS, and vanilla JavaScript to practice core DOM manipulation and event handling. Users can effortlessly add items using the input field or Enter key, mark items as completed with a strike-through, remove individual entries, or clear the entire table with a single click.
