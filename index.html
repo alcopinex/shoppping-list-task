@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Shopping List</h1>
+
+<!-- Input field for adding items -->
+<input type="text" id="itemInput" placeholder="Enter an item">
+<button id="addItemButton">Add Item</button> 
+
+<!-- table to display the shopping list items -->
+<table id="shoppingListTable">
+    <thead>
+        <tr>
+            <!-- the item is a text -->
+            <th>Item</th>
+            <!--Action is a button to remove-->
+            <th>Action</th>
+            <!--the status is the condition on the checkbox -->
+            <th>Status</th>
+            
+        </tr>
+    </thead>
+    <tbody id="shoppingListBody">
+        <!-- items will be added here -->
+
+    </tbody>
+</table>
+    </div>
+
+    <section>
+       <div> 
+        <!--Clear button-->
+        <button id="clearListButton">Clear List</button>
+    </section></div>
+    <script src="main.js"></script>
+</body>
+</html>
